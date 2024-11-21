@@ -35,3 +35,6 @@
 ./service.sh <serviço> kill
 ~~~
 
+**Nota:**
+Para que o serviço de DNS funcione corretamente, certifique-se de definir "nameserver 127.0.0.1" em /etc/resolv.conf
+
