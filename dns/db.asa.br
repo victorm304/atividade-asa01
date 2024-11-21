@@ -1,0 +1,13 @@
+$TTL 86400
+@    IN    SOA   ns1.asa.br. admin.asa.br. (
+               2024112101 ; Serial
+               3600       ; Refresh
+               1800       ; Retry
+               1209600    ; Expire
+               86400 )    ; Minimum TTL
+
+     IN    NS    ns1.asa.br.
+
+ns1  IN    A     127.0.0.1
+asa.br.   IN    A     127.0.0.1
+www.asa.br. IN   a     127.0.0.1
