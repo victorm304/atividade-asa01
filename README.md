@@ -29,7 +29,7 @@
 ~~~
 
 
-** Remove o container e sua imagem**
+**Remove o container e sua imagem**
 
 ~~~
 ./service.sh <serviço> kill
